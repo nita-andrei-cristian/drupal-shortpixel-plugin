@@ -1,0 +1,7 @@
+name: Image Optimize - ShortPixel
+type: module
+package: Image Optimize
+description: 'Provides a Shortpixel optimizer for ImageAPI Optimize.'
+core_version_requirement: ^8 || ^9 || ^10 || ^11
+dependencies:
+  - imageapi_optimize:imageapi_optimize

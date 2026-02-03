@@ -1,0 +1,23 @@
+imageapi_optimize.processor.shortpixel:
+  type: mapping
+  mapping:
+    api_key:
+      label: 'API Key'
+      type: string
+
+    compression_type:
+      label: 'Compression Type'
+      type: string
+      description: 'Choose the image compression level.'
+      allowed_values:
+        lossy:
+          label: 'Lossy Compression'
+          description: 'Best for most users. Smallest images with an optimal balance between speed and quality.'
+        glossy:
+          label: 'Glossy Compression'
+          description: 'Higher visual quality with a slight trade-off in page speed.'
+        lossless:
+          label: 'Lossless Compression'
+          description: 'Pixel-perfect images with minimal size reduction.'
+      default: glossy
+
